@@ -1,0 +1,5 @@
+data/obj_train_data/frame_1.png
+data/obj_train_data/frame_2.png
+data/obj_train_data/frame_3.png
+data/obj_train_data/frame_4.png
+data/obj_train_data/frame_5.png

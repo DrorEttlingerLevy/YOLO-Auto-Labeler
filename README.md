@@ -2,6 +2,17 @@
 
 Semi-automatic YOLO dataset labeling tool. A trained model proposes bounding boxes; you review, fix, and save labels.
 
+## Folder layout
+
+```
+data/
+  dataset/obj_train_data/   # training images + YOLO .txt labels
+  images_to_label/          # new images for the labeler
+  labels/                   # labels saved by the labeler
+models/
+  trained/weights/best.pt   # output from basic_YOLO_train.py
+```
+
 ## Requirements
 
 - Python 3.8+

@@ -10,6 +10,10 @@ images_dir = r"G:\My Drive\PhD\video YOLO\final project ML course\extra images"
 labels_dir = r"G:\My Drive\PhD\video YOLO\final project ML course\data\output_folder_auto_labeler"
 model_path = r"G:\My Drive\PhD\video YOLO\final project ML course\data\runs\detect\yolov8-transfer-fish4\weights\best.pt"
 
+images_dir = r"data\images_to_label"
+labels_dir = r"data\labels"
+model_path = r"models\trained\data\runs\detect\yolov8-transfer-fish4\weights\best.pt"
+
 os.makedirs(labels_dir, exist_ok=True)
 model = YOLO(model_path)
 
